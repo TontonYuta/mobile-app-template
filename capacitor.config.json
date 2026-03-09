@@ -1,0 +1,6 @@
+{
+  "appId": "com.tontonyuta.myapp",
+  "appName": "Tên App Của Bạn",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
