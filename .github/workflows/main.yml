@@ -1,0 +1,8 @@
+name: Build App
+on: [push] # Cứ push code là tự build
+
+jobs:
+  call-factory:
+    uses: tontonyuta/build-factory/.github/workflows/reusable-build.yml@main
+    with:
+      app_name: "Tên App Mặc Định" # Bạn sẽ đổi cái này sau
